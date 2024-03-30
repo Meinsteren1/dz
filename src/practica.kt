@@ -12,6 +12,7 @@ fun main() {
         r[x].width = (x + 1) * 3
         r[x].height = x + 5
         println("Прямоугольник $x имеет площадь ${r[x].area}")
+
         println("Это ${if (r[x].isSquare) "" else "не"} квадрат")
     }
 }
