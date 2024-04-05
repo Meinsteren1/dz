@@ -1,6 +1,6 @@
 class MusicInstrument (val type: String, val name:String, val yearOfManufacture:String){
     fun getInstrument(){
-        println("Тип инструмента: $type, Название: $name, Автор: $yearOfManufacture")
+        println("Тип инструмента: $type, Название: $name, Год изготовление: $yearOfManufacture")
     }
 
 }
